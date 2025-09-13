@@ -9,7 +9,7 @@ fetch('projects.json')
         ${p.image ? `<img src="${p.image}" alt="${p.title}">` : ''}
         <h3>${p.title}</h3>
         <p>${p.summary}</p>
-        <p><a href="${p.link}" target="_blank">View Project</a></p>
+        <p><a href="${p.link}" target="_blank"> </a></p>
       `;
       container.appendChild(el);
     });
