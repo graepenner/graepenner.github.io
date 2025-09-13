@@ -2,20 +2,17 @@
   {
     "title": "Robotic Arm",
     "summary": "6-DOF servo robotic arm featuring multiple control modes: wireless keyboard, wired custom controller, or HTML webpage interface, with Arduino-enabled motion recording and playback functionality.",
-    "link": "https://github.com/yourusername/robot-arm",
     "image": "robotic-arm.jpg"
   },
   {
     "title": "Mini Wind Tunnel",
     "summary": "Designed a smoke visualization wind tunnel for fluid mechanics demos.",
-    "link": "https://github.com/yourusername/wind-tunnel",
     "image": "wind-tunnel.jpg"
   },
 
   {
   "title": "Automated Plant Watering System",
   "summary": "Built a system to automatically water plants using sensors, pumps, and microcontrollers. Designed for timing, soil moisture detection, and remote monitoring.",
-  "link": "https://github.com/yourusername/plant-watering-system",
   "image": "plant-watering.png"
 }
 
