@@ -1,7 +1,7 @@
 [
   {
     "title": "Robotic Arm",
-    "summary": "6-DOF servo robotic arm featuring multiple control modes: wireless keyboard, wired custom controller, or HTML webpage interface, with Arduino-enabled motion recording and playback functionality.",
+    "summary": "3D Printed 6-DOF servo robotic arm featuring multiple control modes: wireless keyboard, wired custom controller, or HTML webpage interface, with Arduino-enabled motion recording and playback functionality.",
     "image": "robotic-arm.jpg"
   },
   {
