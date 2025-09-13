@@ -1,10 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grae Penner - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Hello World! 👋</h1>
-  <p>This is my first GitHub Pages site.</p>
+  <!-- Header with headshot side-by-side -->
+  <header>
+    <img src="assets/headshot.jpeg" alt="My headshot" class="headshot-header">
+    <div class="header-text">
+      <h1>Grae Penner</h1>
+      <p>Mechanical / Aerospace Engineering Co-Op Student | Portfolio</p>
+      <a href="GraePennerResume.pdf" target="_blank" class="btn-resume">Download Resume</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- About section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm a third-year Mechanical Engineering Co-op student with experience in process engineering, composite manufacturing, aerospace R&D environments and personal design projects. Skilled in hands-on problem solving, writing technical documents, and working with different teams. I'm especially interested in learning about aerospace systems, manufacturing innovation, and process optimization.</p>
+    </section>
+
+    <!-- Experience section -->
+    <section id="Professional Experience">
+      <h2>Professional Experience</h2>
+    </section>
+<div class="experience-item">
+  <img src="assets/magellan-logo.jpg" alt="Magellan Aerospace Logo" class="experience-logo">
+  <div class="experience-details">
+    <h3>Process Engineering Co-op Summer Student</h3>
+    <p><strong>Magellan Aerospace, Winnipeg</strong> | Summer 2025</p>
+    <ul>
+      <li>Supported R&D projects on thermoset composite forming in collaboration with external research partners.</li>
+      <li>Helped conduct a thermal survey project assessing dual-rack autoclave loading feasibility.</li>
+      <li>Assisted with vacuum bagging of carbon fiber pre-preg rocket components for UMSATS in a cleanroom environment, following FOD control procedures.</li>
+      <li>Performed metallurgical testing on nickel-based superalloys and prepared micro-samples by cutting, mounting, and etching coupons to analyze post-laser cut recast and spatter using microscopy techniques.</li>
+      <li>Created part models and technical drawings in Solid Edge, including new replacement part designs and updated drawings of existing parts. Designed parts were successfully machined and resolved tooling inconsistencies.</li>
+      <li>Wrote engineering and lab reports documenting internal processes, testing material conformance, and procedural instructions.</li>
+      <li>Prepared cost analyses and procurement justifications for new equipment and PPE; communicated with suppliers and supported investigations with Health & Safety and Maintenance teams.</li>
+      <li>Updated internal OJT (on-the-job-training) forms for operators and used gap analysis for internal documentation, customer specifications and standards.</li>
+    </ul>
+  </div>
+</div>
+
+
+  <!-- Example for future experiences -->
+  <!--
+  <div class="experience-item">
+    <img src="assets/company-logo.png" alt="Company Logo" class="experience-logo">
+    <div class="experience-details">
+      <h3>Job Title</h3>
+      <p><strong>Company Name</strong> | Dates</p>
+      <p>Short description of responsibilities and achievements.</p>
+    </div>
+  </div>
+  -->
+</section>
+
+    <!-- Projects section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div id="project-list"></div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:graepenner@gmail.com">graepenner@gmail.com</a></p>
+
+        <a href="https://www.linkedin.com/in/graepenner" target="_blank">LinkedIn</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Grae Penner</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
