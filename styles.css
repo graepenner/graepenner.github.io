@@ -125,3 +125,42 @@ header {
   background-color: #006ead;    /* slightly darker on hover */
 }
 
+/* Education Section */
+#education {
+  padding: 2rem 20px;        /* top/bottom 2rem, left/right 20px */
+  max-width: 900px;          /* restrict width so it doesn't stretch too far */
+  margin: 0 auto;            /* centers the section horizontally */
+}
+
+.education-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;                 /* space between logo and text */
+}
+
+
+
+.education-logo {
+  width: 75px;           /* logo size */
+  height: 75px;
+  object-fit: contain;    /* keeps logo ratio */
+  border-radius: 8px;    /* optional rounded corners */
+}
+
+.education-details h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.education-details p {
+  margin: 3px 0;
+}
+.education-details ul {
+  padding-left: 20px;      /* indents the bullets */
+  margin: 5px 0 0 0;       /* removes extra spacing */
+  list-style-type: disc;    /* standard bullet points */
+}
+
+.education-details li {
+  margin-bottom: 8px;      /* space between bullets */
+}
